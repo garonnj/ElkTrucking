@@ -9,7 +9,7 @@ namespace ElkTrucking
 {
     public class BundleConfig
     {
-        // For more information on Bundling, visit https://go.microsoft.com/fwlink/?LinkID=303951
+        // For more information on Bundling, visit https://go.microsoft.com/fwlink/?LinkID=303951 jkhkjhkjh
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/WebFormsJs").Include(
