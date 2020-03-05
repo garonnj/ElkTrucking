@@ -27,10 +27,10 @@
         <!--Nav bar--> 
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
+            <a class="nav-link active" href="index.aspx">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Locations</a>
+            <a class="nav-link" href="locations.aspx">Locations</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Member Directory</a>
@@ -44,7 +44,7 @@
         
         <ul>
             <li>
-              <a href="direct-location.html">  A</a> <br>
+              <a href="directlocation.aspx">  Stop-n-Go</a> <br>
             </li>
         <p>This page will have a list in alphabetical order of all of the possible drop off locations. When you select a drop off location, it will take you to a page that displays a picture, contact information and all of the amenities and reviews fo that location.</p>
         </ul>

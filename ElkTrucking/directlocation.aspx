@@ -27,10 +27,10 @@
         <!--Nav bar--> 
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
+            <a class="nav-link active" href="index.aspx">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="locations.html">Locations</a>
+            <a class="nav-link" href="locations.aspx">Locations</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Member Directory</a>
@@ -55,17 +55,21 @@
     </center>    
     <br> <br>    
 <!-- List of Amenities--> 
+        <center>
     <div>  
         <h6>Amenities</h6>    
-        <p> This will be an explanation and a list of the amenities for this location. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <p> This will be an explanation and a list of the amenities for this location.
         </p>    
-    </div>     
+    </div>   
+            </center>
      
 <!-- Example of a comment box-->
+        <center>
         <div>
         
         <h4>Here will be a comment from a driver </h4>
         </div>
+            </center>
 
     <footer>
             <center>

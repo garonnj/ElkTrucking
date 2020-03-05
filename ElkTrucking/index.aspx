@@ -17,6 +17,7 @@
     </head>
     
     <body>
+        <form id="form1" class="form-signin" runat="server">
         <!-- logo image-->
         <div class="logo">
         <center>
@@ -27,10 +28,10 @@
         <!--Nav bar--> 
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
+            <a class="nav-link" href="index.aspx">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="locations.html">Locations</a>
+            <a class="nav-link" href="locations.aspx">Locations</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Member Directory</a>
@@ -44,13 +45,15 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/truck1.jpg" class="d-block w-100" alt="Truck">
+                <center>
+                <img src="images/truck1.jpg" class="d-block w-50" alt="Truck">
+                    </center>
             </div>
             <div class="carousel-item">
-              <img src="images/truck2.jpg" class="d-block w-100" alt="Truck">
+              <img src="images/truck2.jpg" class="d-block w-10" alt="Truck">
             </div>
             <div class="carousel-item">
-              <img src="images/truck3.jpg" class="d-block w-100" alt="Truck">
+              <img src="images/truck3.jpg" class="d-block w-10" alt="Truck">
             </div>
           </div>
         </div>
@@ -58,39 +61,43 @@
     <!--Paragraph explaining what this website is for--> 
         <div class="text">  
         <center>   
-            <p>Right here will be a paragraph introducing this website and a brief explanation of what this app is for. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <p>Right here will be a paragraph introducing this website and a brief explanation of what this app is for. </p>
         </center>     
         </div>    
-    
+     
+    <center>
     <div>
-        <h6><a href="locations.html">See All Locations</a></h6>
+        <h6><a href="locations.aspx">See All Locations</a></h6>
     </div>    
-    <!--Locations that will appear on home page-->    
+    <!--Locations that will appear on home page-->   
+        
         <div class="row">
-          <div class="col-sm-6">
-            <div class="card">
-                <img src="images/deliveryfiller.jpg" class="card-img-top" alt="Location Image">
-              <div class="card-body">
-                <h5 class="card-title">Virginia Locations</h5>
+
+            <div class="col-sm-6">
+              <img src="images/deliveryfiller.jpg" class="card-img-top w-75" alt="Location Image">
+            <div class="card w-75">
+              <div class="card-body w-75">
+                <h5 class="card-title">Alabama Locations</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                 <a href="#" class="btn btn-primary">View Locations</a>
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
-              <div class="card">
-                <img src="images/deliveryfiller.jpg" class="card-img-top" alt="Location Image">
-              <div class="card-body">
-                <h5 class="card-title">Maryland Locations</h5>
+
+            <div class="col-sm-6">
+              <img src="images/deliveryfiller.jpg" class="card-img-top w-75" alt="Location Image">
+            <div class="card w-75">
+              <div class="card-body w-75">
+                <h5 class="card-title">Connecticut Locations</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                 <a href="#" class="btn btn-primary">View Locations</a>
               </div>
             </div>
           </div>
             <div class="col-sm-6">
-              <img src="images/deliveryfiller.jpg" class="card-img-top" alt="Location Image">
-            <div class="card">
-              <div class="card-body">
+              <img src="images/deliveryfiller.jpg" class="card-img-top w-75" alt="Location Image">
+            <div class="card w-75">
+              <div class="card-body w-75">
                 <h5 class="card-title">Delaware Locations</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                 <a href="#" class="btn btn-primary">View Locations</a>
@@ -98,16 +105,19 @@
             </div>
           </div>
             <div class="col-sm-6">
-              <img src="images/deliveryfiller.jpg" class="card-img-top" alt="Location Image">
-            <div class="card">
-              <div class="card-body">
+              <img src="images/deliveryfiller.jpg" class="card-img-top w-75" alt="Location Image">
+            <div class="card w-75">
+              <div class="card-body w-75">
+                  <center>
                 <h5 class="card-title">Pennsylvania Locations</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                 <a href="#" class="btn btn-primary">View Locations</a>
+                  </center>
               </div>
             </div>
           </div>
         </div>
+            </center>
         
         
         <footer>
@@ -118,5 +128,7 @@
                 Insert Email Address
             </center>
         </footer>  
+       </form>
     </body>
+    
 </html>
