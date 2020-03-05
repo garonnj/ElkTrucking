@@ -46,7 +46,7 @@
   </div>
     
 <br>    
-  <button class="btn btn-lg btn-primary btn-block" type="submit" href="index.html">Sign up</button>
+  <asp:Button ID="SignIn" runat="server" class="btn btn-lg btn-primary btn-block" Text="Sign In" href="index.aspx" OnClick="SignIn_Click"></asp:Button>
    
 </center>    
 </form>
