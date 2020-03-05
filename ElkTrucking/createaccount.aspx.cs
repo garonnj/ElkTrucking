@@ -96,8 +96,8 @@ public partial class createaccount : System.Web.UI.Page
             using (SqlCommand Update2 = new SqlCommand(CommandText2, Connection))
             {
 
-                Update2.Parameters.AddWithValue("@CBHandle", FirstNametbox.Text);
-                Update2.Parameters.AddWithValue("@Password", LastNametbox.Text);
+                Update2.Parameters.AddWithValue("@CBHandle", CBHandletbox.Text);
+                Update2.Parameters.AddWithValue("@Password", firstPasstbox.Text);
                 Update2.Parameters.AddWithValue("@LastUpdated", DateTime.Now);
                 Update2.Parameters.AddWithValue("@LastUpdatedBy", FirstNametbox.Text + " " + LastNametbox.Text);
                 Update2.ExecuteNonQuery();
@@ -111,6 +111,7 @@ public partial class createaccount : System.Web.UI.Page
                 Error.Text = "You have created an account!";
                 Error.Visible = true;
                 Button2.Visible = true;
+
             }
             else
             {
@@ -118,5 +119,17 @@ public partial class createaccount : System.Web.UI.Page
                 Error.Visible = true;
             }
         }
+    }
+
+    protected void Populate(object sender, EventArgs e)
+    {
+        FirstNametbox.Text = "Robert";
+        LastNametbox.Text = "Cain";
+        emailtbox.Text = "RCain@gmail.com";
+        companyNametbox.Text = "Elk Trucking";
+        CBHandletbox.Text = "TumbleWeed";
+        phoneNumbertbox.Text = "7032985959";
+        firstPasstbox.Text = "Password";
+        secondPasstbox.Text = "Password";
     }
 }

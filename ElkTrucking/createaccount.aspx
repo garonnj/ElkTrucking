@@ -57,11 +57,11 @@
             <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ErrorMessage="Phone Number Required" ControlToValidate="phoneNumbertbox" EnableClientScript="False" ForeColor="Red" ValidationGroup="Required"></asp:RequiredFieldValidator>
       <br />
       Created Password:
-      <asp:TextBox class="form-control" ID="firstPasstbox" runat="server"></asp:TextBox>
+      <asp:TextBox class="form-control" ID="firstPasstbox" runat="server" TextMode="Password"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ErrorMessage="Password Required" ControlToValidate="firstPasstbox" EnableClientScript="False" ForeColor="Red" ValidationGroup="Required"></asp:RequiredFieldValidator>
       <br />
       Confirm Password:
-      <asp:TextBox class="form-control" ID="secondPasstbox" runat="server"></asp:TextBox>
+      <asp:TextBox class="form-control" ID="secondPasstbox" runat="server" TextMode="Password"></asp:TextBox>
         
     
             <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ErrorMessage="Password Required" ControlToValidate="secondPasstbox" EnableClientScript="False" ForeColor="Red" ValidationGroup="Required"></asp:RequiredFieldValidator>
@@ -71,6 +71,8 @@
   
    
     <asp:Button ID="Button1" runat="server" Text="Create" ValidationGroup="Required" OnClick="Create" />
+  
+            &nbsp;<asp:Button ID="Button3" runat="server" OnClick="Populate" Text="Populate" />
   
             <br />
             <br />

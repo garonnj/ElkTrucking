@@ -38,12 +38,14 @@
             <br />
       <br />
       Password:
-      <asp:TextBox ID="Passwordtbox" class="form-control" runat="server" ValidationGroup="Required"></asp:TextBox>
+      <asp:TextBox ID="Passwordtbox" class="form-control" runat="server" ValidationGroup="Required" TextMode="Password"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="Passwordtbox" EnableClientScript="False" ErrorMessage="Must Enter Password" ForeColor="Red" ValidationGroup="Required"></asp:RequiredFieldValidator>
             <br />
       <br />
     
     <asp:Button ID="SignInbtn" runat="server" Text="Sign In" OnClick="SignIn" ValidationGroup="Required" />
+    
+            <asp:Button ID="Button1" runat="server" OnClick="Populate" Text="Populate" />
     
             <br />
             <br />

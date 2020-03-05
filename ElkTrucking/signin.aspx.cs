@@ -63,4 +63,10 @@ public partial class signin : System.Web.UI.Page
 
         }
     }
+
+    protected void Populate(object sender, EventArgs e)
+    {
+        CBHandletbox.Text = "TumbleWeed";
+        Passwordtbox.Text = "Password";
+    }
 }
