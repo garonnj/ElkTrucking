@@ -31,15 +31,24 @@
     <h1 class="h3 mb-3 font-weight-normal">Welcome to LoadDock411</h1>
     <h3>Already have an account? Sign in!</h3>
 
-      Email Address:
+            CB Handle:
 
-      <asp:TextBox ID="TextBox1" class="form-control" runat="server"></asp:TextBox>
+      <asp:TextBox ID="CBHandletbox" class="form-control" runat="server" ValidationGroup="Required"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="CBHandletbox" EnableClientScript="False" ErrorMessage="Must Enter CBHandle" ForeColor="Red" ValidationGroup="Required"></asp:RequiredFieldValidator>
+            <br />
       <br />
       Password:
-      <asp:TextBox ID="TextBox2" class="form-control" runat="server"></asp:TextBox>
+      <asp:TextBox ID="Passwordtbox" class="form-control" runat="server" ValidationGroup="Required"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="Passwordtbox" EnableClientScript="False" ErrorMessage="Must Enter Password" ForeColor="Red" ValidationGroup="Required"></asp:RequiredFieldValidator>
+            <br />
       <br />
     
-    <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+    <asp:Button ID="SignInbtn" runat="server" Text="Sign In" OnClick="SignIn" ValidationGroup="Required" />
+    
+            <br />
+            <br />
+            <asp:TextBox ID="Error" class= "form-control" runat="server" Height="136px" ReadOnly="True" Visible="False" Width="453px"></asp:TextBox>
+            <br />
     
 <br>    
 

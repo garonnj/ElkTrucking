@@ -2044,8 +2044,7 @@ pre code {
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-  height: calc(1.5em + 0.75rem + 2px);
+ calc(1.5em + 0.75rem + 2px);
  ext.form-control-sm, .form-control-plaintext.form;
   font-weight: 400;
   line-height: 1.5;
