@@ -1,6 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="index" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" Runat="Server">
     <!DOCTYPE html>
 <html lang="en-US">
     <head>
@@ -120,6 +119,4 @@
             </center>
         </footer>  
     </body>
-</html> 
-</asp:Content>
-
+</html>

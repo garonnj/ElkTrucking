@@ -1,6 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="locations.aspx.cs" Inherits="locations" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="locations.aspx.cs" Inherits="locations" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" Runat="Server">
     <!DOCTYPE html>
 <html lang="en-US">
     <head>
@@ -53,5 +52,3 @@
         
     </body>
 </html> 
-</asp:Content>
-
